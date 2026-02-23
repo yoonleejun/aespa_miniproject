@@ -22,6 +22,7 @@ input {
   padding: 40px;
   box-shadow: 0 2px 2px black;
   gap: 24px;
+  border-radius: 5px;
 }
 
 .input-container {
@@ -80,4 +81,67 @@ input {
   height: 350px;
   resize: none;
   outline: none;
+}
+
+.modal {
+  display: none;
+}
+
+.modal:target {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-container {
+  position: relative;
+  background-color: white;
+  padding: 16px;
+  border-radius: 5px;
+  display: flex;
+  width: 750px;
+  gap: 20px;
+  justify-content: space-between;
+  border: 10px solid transparent; /* 중요 */
+  background:
+    linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #c88ddd, #9ceafe) border-box;
+}
+
+.modal-img {
+  width: 400px;
+  border: 1px solid black;
+}
+
+.modal-logo {
+  width: 100px;
+}
+
+.modal-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.modal-font {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.modal-button {
+  background-color: #223055;
+  color: white;
+  padding: 12px 23px 12px 23px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px black;
+  cursor: pointer;
 }
