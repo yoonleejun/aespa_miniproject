@@ -76,6 +76,12 @@ section {
   color: #04dd73;
 }
 
+.welcome-to-my-world {
+  background-image: linear-gradient(to bottom, #8cc0cd, #33472e);
+  border: 1px solid #33472e;
+
+  color: #ffffff;
+}
 .album {
   display: flex;
   flex-direction: column;
@@ -152,7 +158,10 @@ section {
   background-color: transparent;
   color: #04dd73;
 }
-
+.welcome-to-my-world .tracklist th {
+  background-color: transparent;
+  color: #ffffff;
+}
 .tracklist th {
   font-weight: 600;
   padding: 15px;
@@ -209,6 +218,12 @@ section {
   border: 1px solid #399ae9;
 
   color: #04dd73;
+}
+.welcome-to-my-world .badges p {
+  background-image: linear-gradient(to bottom, #8cc0cd, #33472e);
+  border: 1px solid #33472e;
+
+  color: #ffffff;
 }
 .link {
   width: 80px;
