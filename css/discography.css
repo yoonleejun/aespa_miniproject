@@ -21,12 +21,18 @@ section {
   overflow: hidden;
 
   border: 1px solid #455c38;
+
+  color: #dceac5;
 }
 
 .album {
   text-align: center;
 }
 
+.album-logo {
+  padding-top: 40px;
+  width: 300px;
+}
 .cover {
   display: block;
   width: 500px;
@@ -41,6 +47,8 @@ table {
   background-color: white;
 
   margin-bottom: 40px;
+
+  color: black;
 }
 
 table,
@@ -53,5 +61,11 @@ td {
   width: 60px;
 }
 .link {
+  width: 60px;
+}
+.ytb-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 60px;
 }
