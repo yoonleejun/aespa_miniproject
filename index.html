@@ -6,77 +6,98 @@
   <title>에스파 팬페이지</title>
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/common.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="site-header">
-    <h1>
-      <a href="#">
-        <img src="/images/logo-black.svg" alt="aespa"/>
-      </a>
-    </h1>
-    <nav>
-      <ul class="header-menu">
-        <li><a href="about.html">About</a></li>
-        <li><a href="discography.html">Discography</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="schedule.html">Schedule</a></li>
-        <li><a href="community.html">Community</a></li>
-        <li><a href="fan-letter.html">Fan-letter</a></li>
-      </ul>
-    </nav>
-    </div> 
+    <div class="header__inner">
+
+      <h1 class="header__logo">
+        <a href="#">
+          <img src="/images/logo-black.svg" alt="aespa" />
+        </a>
+      </h1>
+
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__item"><a href="about.html">About</a></li>
+          <li class="header__item"><a href="discography.html">Discography</a></li>
+          <li class="header__item"><a href="gallery.html">Gallery</a></li>
+          <li class="header__item"><a href="schedule.html">Schedule</a></li>
+          <li class="header__item"><a href="community.html">Community</a></li>
+          <li class="header__item"><a href="fan-letter.html">Fan-letter</a></li>
+        </ul>
+      </nav>
+
+    </div>
   </header>
 
-
   <footer class="site-footer">
-    <div class="footer-inner">
-      <a href="#">
-        <img src="images/logo-white.svg" alt="aespa"/>
+    <div class="footer__inner">
+
+      <!-- 로고 -->
+      <a href="#" class="footer__logo">
+        <img src="/images/logo-white.svg" alt="aespa">
       </a>
 
-      <div>
-        <div>
-          <strong>
-            Sprinter Team. 4
-          </strong>
-          <ul>
-            <li>park so jeong</li>
-            <li>yoo seo hyeon</li>
-            <li>yoon lee jun</li>
-            <li>lee sang yun</li>
-            <li>lee ji yeon</li>
-            <li>choi hye seong</li>
-            <li>choo myung gon</li>
+      <!-- 팀 정보 + 깃허브 -->
+      <div class="footer__info">
+
+        <div class="footer__team">
+          <strong class="footer__team-name">Sprinter Team 4</strong>
+          <ul class="footer__members">
+            <li class="footer__member">park so jeong</li>
+            <li class="footer__member">yoo seo hyeon</li>
+            <li class="footer__member">yoon lee jun</li>
+            <li class="footer__member">lee sang yun</li>
+            <li class="footer__member">lee ji yeon</li>
+            <li class="footer__member">choi hye seong</li>
+            <li class="footer__member">choo myung gon</li>
           </ul>
         </div>
-        <div>
-          <strong>code</strong>
-          <a href="https://github.com/yoonleejun/aespa_miniproject">
-            <img src="/images/icon-link-github.svg" />
+
+        <div class="footer__code">
+          <strong class="footer__code-title">Code</strong>
+          <a 
+            href="https://github.com/yoonleejun/aespa_miniproject"
+            class="footer__github"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/images/icon-link-github.svg" alt="GitHub">
           </a>
         </div>
+
       </div>
 
-      <div>
-        <div class="footer-socials">
-          <a href="https://x.com/aespa_official" target="_blank" rel="noopener noreferrer">
-            <span class="sr-only">에스파 공식 x</span>
-            <img src="/images/icon-link-x.svg" alt="" aria-hidden="true"/>
+      <!-- SNS + 카피 -->
+      <div class="footer__bottom">
+
+        <div class="footer__social">
+          <a href="https://x.com/aespa_official" target="_blank" rel="noopener noreferrer" class="footer__social-link">
+            <span class="sr-only">에스파 공식 X</span>
+            <img src="/images/icon-link-x.svg" alt="" aria-hidden="true">
           </a>
-          <a href="https://www.youtube.com/@aespa" target="_blank" rel="noopener noreferrer">
+
+          <a href="https://www.youtube.com/@aespa" target="_blank" rel="noopener noreferrer" class="footer__social-link">
             <span class="sr-only">에스파 공식 유튜브</span>
-            <img src="/images/icon-link-youtube.svg" alt="" aria-ßhidden="true"/>
+            <img src="/images/icon-link-youtube.svg" alt="" aria-hidden="true">
           </a>
-          <a href="https://www.instagram.com/aespa_official" target="_blank" rel="noopener noreferrer">
+
+          <a href="https://www.instagram.com/aespa_official" target="_blank" rel="noopener noreferrer" class="footer__social-link">
             <span class="sr-only">에스파 공식 인스타그램</span>
-            <img src="/images/icon-link-instagram.svg" alt="" aria-hidden="true"/>
+            <img src="/images/icon-link-instagram.svg" alt="" aria-hidden="true">
           </a>
         </div>
 
-        <div>
-          <span>ⓒ 2026 FS-sprint 4팀 (12기)  All rights reserved</span>
-        </div>
+        <p class="footer__copyright">
+          ⓒ 2026 FS-sprint 4팀 (12기) All rights reserved
+        </p>
+
       </div>
+
     </div>
   </footer>
 </body>

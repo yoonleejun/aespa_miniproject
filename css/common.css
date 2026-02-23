@@ -10,3 +10,8 @@
   white-space: nowrap;
   border-width: 0;
 }
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+}
