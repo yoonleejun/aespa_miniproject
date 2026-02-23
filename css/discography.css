@@ -30,6 +30,23 @@ section {
   color: #dceac5;
 }
 
+.supernova {
+  background-color: #0d0a0e;
+
+  border-radius: 45px;
+  overflow: hidden;
+
+  border: 1px solid #0d0a0e;
+
+  color: white;
+  -webkit-text-stroke: 0.3px #ff00ff;
+  text-shadow:
+    0 0 2px #ff00ff,
+    0 0 6px #ff00ff,
+    0 0 12px #ff00ff,
+    0 0 24px #ff00ff,
+    0 0 48px #ff00ff;
+}
 .album {
   display: flex;
   flex-direction: column;
@@ -60,14 +77,33 @@ section {
   color: black;
 }
 
-.tracklist table,
-.tracklist th,
-.tracklist td {
+.armageddon .tracklist table,
+.armageddon .tracklist th,
+.armageddon .tracklist td {
   border: 1px solid #455c38;
   padding: 5px;
 
   text-align: center;
   vertical-align: middle;
+}
+
+.supernova .tracklist table,
+.supernova .tracklist th,
+.supernova .tracklist td {
+  border: 1px solid gray;
+  padding: 5px;
+
+  text-align: center;
+  vertical-align: middle;
+
+  -webkit-text-stroke: 0;
+  text-shadow: none;
+}
+
+.supernova .tracklist th {
+  background-color: #0d0a0e;
+
+  color: #ff00ff;
 }
 
 .tracklist th {
@@ -86,7 +122,7 @@ section {
   padding: 3px;
   gap: 5px;
 }
-.badges p {
+.armageddon .badges p {
   padding: 5px;
   border: 1px solid #455c38;
   border-radius: 45px;
@@ -95,6 +131,16 @@ section {
   font-size: 11px;
   font-weight: 500;
   color: #dceac5;
+}
+.supernova .badges p {
+  padding: 5px;
+  border: 1px solid #0d0a0e;
+  border-radius: 45px;
+
+  background-color: #0d0a0e;
+  font-size: 11px;
+  font-weight: 500;
+  color: #ff00ff;
 }
 
 .link {
