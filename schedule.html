@@ -10,83 +10,163 @@
 </head>
 
 <body>
-  <header>
-    <h1>aespa 콘서트·이벤트(행사) 일정</h1>
-  </header>
+  <div class="frame">
+    <header class="page-header">
+      <!-- 실제 화면에 보이는 로고 이미지 -->
+      <img src="./aespa-logo.jpg" alt="aespa" class="logo-img">
+    </header>
 
-  <main>
-    <section aria-labelledby="schedule-title">
-      <h2 id="schedule-title">2025-2026 aespa 콘서트·이벤트(행사) 일정표</h2>
+    <main>
+      <section aria-labelledby="schedule-title">
+        <h2 id="schedule-title">
+          2025-2026 aespa 콘서트·이벤트(행사) 일정표
+        </h2>
 
-      <table class="schedule-table">
-        <caption>2025-2026 aespa 콘서트·이벤트(행사) 세부 일정</caption>
+        <!-- 1. 콘서트 · 투어 -->
+        <section class="schedule-section" aria-labelledby="concert-title">
+          <h3 id="concert-title">콘서트 · 투어</h3>
 
-        <thead>
-          <tr>
-            <th scope="col">콘서트/행사명</th>
-            <th scope="col">장소(국가명 및 지역명 포함)</th>
-            <th scope="col">날짜/시간</th>
-          </tr>
-        </thead>
+          <table class="schedule-table">
+            <caption>콘서트 · 투어 일정</caption>
+            <thead>
+              <tr>
+                <th scope="col">콘서트명</th>
+                <th scope="col">장소(국가명 및 지역명 포함)</th>
+                <th scope="col">날짜/시간</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>SUMMER SONIC 2025</td>
+                <td>
+                  <img src="./flags/japan.png" alt="일본 국기" class="flag-icon">
+                  ZOZO 마린 스타디움(일본 치바현)
+                </td>
+                <td>2025.08.17(Sun)</td>
+              </tr>
+              <tr>
+                <td>SMTOWN LIVE 2025-26 in FUKUOKA</td>
+                <td>
+                  <img src="./flags/japan.png" alt="일본 국기" class="flag-icon">
+                  미즈호 PayPay 돔 후쿠오카(일본 후쿠오카현)
+                </td>
+                <td>2026.01.31(Sat) ~ 02.01(Sun)</td>
+              </tr>
+              <tr>
+                <td>SMTOWN LIVE 2025-26 in BANGKOK</td>
+                <td>
+                  <img src="./flags/thailand.png" alt="태국 국기" class="flag-icon">
+                  라차망칼라 국립 경기장(태국 방콕시)
+                </td>
+                <td>2026.02.14(Sat)</td>
+              </tr>
+              <tr>
+                <td>2025-26 aespa LIVE TOUR(SYNK : aeXIS LINE)</td>
+                <td>
+                  <img src="./flags/south-korea.png" alt="한국 국기" class="flag-icon">
+                  <img src="./flags/japan.png" alt="일본 국기" class="flag-icon">
+                  총 6개국 9개 도시(시작: KSPO DOME[올림픽체조경기장](서울특별시)
+                  → 마지막: 도쿄 돔(일본 도쿄도))
+                </td>
+                <td>2025.08.29(Fri) ~ 2026.04.26(Sun)</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
 
-        <tbody>
-          <tr>
-            <td>SUMMER SONIC 2025</td>
-            <td>ZOZO 마린 스타디움(일본 치바현)</td>
-            <td>2025.08.17(Sun)</td>
-          </tr>
-          <tr>
-            <td>Love Your W 2025</td>
-            <td>포시즌스 호텔 서울 3F 그랜드 볼룸(서울특별시)</td>
-            <td>2025.10.15(Wed)</td>
-          </tr>
-          <tr>
-            <td>2025 MAMA AWARDS</td>
-            <td>카이탁 스포츠 파크(홍콩 구룡반도 구룡성구 카이탁)</td>
-            <td>2025.11.28(Fri)/29(Sat) 19:30</td>
-          </tr>
-          <tr>
-            <td>2025 멜론 뮤직 어워드</td>
-            <td>고척 스카이돔(서울특별시)</td>
-            <td>2025.12.20(Sat) 17:00</td>
-          </tr>
-          <tr>
-            <td>2025 SBS 가요대전: Golden Loop</td>
-            <td>인스파이어 아레나(INSPIRE ARENA)(인천광역시)</td>
-            <td>2025.12.25(Thu)</td>
-          </tr>
-          <tr>
-            <td>미쟝센 퍼펙트 세럼 팝업 행사</td>
-            <td>올리브영 N 성수(서울특별시)</td>
-            <td>2025.12.31(Wed)</td>
-          </tr>
-          <tr>
-            <td>2025 MBC 가요대제전: 멋</td>
-            <td>MBC 일산 드림센터 D6 스튜디오(경기도 일산시)</td>
-            <td>2025.12.31(Wed)</td>
-          <tr>
-            <td>SMTOWN LIVE 2025-26 in FUKUOKA</td>
-            <td>미즈호 PayPay 돔 후쿠오카(일본 후쿠오카현)</td>
-            <td>2026.01.31(Sat) ~ 02.01(Sun)</td>
-          </tr>
-          <tr>
-            <td>SMTOWN LIVE 2025-26 in BANGKOK</td>
-            <td>라차망칼라 국립 경기장(태국 방콕시)</td>
-            <td>2026.02.14(Sat)</td>
-          </tr>
-          <tr>
-            <td>제76회 NHK 홍백가합전(第76回NHK紅白歌合戦)</td>
-            <td>NHK 홀(일본 도쿄)</td>
-            <td>2026.02.19(Thu)</td>
-          </tr>
-          <tr>
-            <td>2025-26 aespa LIVE TOUR(SYNK : aeXIS LINE)</td>
-            <td>총 6개국 9개 도시(시작: KSPO DOME[올림픽체조경기장](서울특별시) → 마지막: 도쿄 돔(일본 도쿄도))</td>
-            <td>2025.08.29(Fri) ~ 2026.04.26(Sun)</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-  </main>
+        <!-- 2. 연말 시상식 · 음악 방송 -->
+        <section class="schedule-section" aria-labelledby="award-title">
+          <h3 id="award-title">연말 시상식 · 음악 방송</h3>
+
+          <table class="schedule-table">
+            <caption>연말 시상식 · 음악 방송 일정</caption>
+            <thead>
+              <tr>
+                <th scope="col">프로그램/시상식명</th>
+                <th scope="col">장소(국가명 및 지역명 포함)</th>
+                <th scope="col">날짜/시간</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2025 MAMA AWARDS</td>
+                <td>
+                  <img src="./flags/hongkong.png" alt="홍콩 국기" class="flag-icon">
+                  카이탁 스포츠 파크(홍콩 구룡반도 구룡성구 카이탁)
+                </td>
+                <td>2025.11.28(Fri)/29(Sat) 19:30</td>
+              </tr>
+              <tr>
+                <td>2025 멜론 뮤직 어워드</td>
+                <td>
+                  <img src="./flags/south-korea.png" alt="한국 국기" class="flag-icon">
+                  고척 스카이돔(서울특별시)
+                </td>
+                <td>2025.12.20(Sat) 17:00</td>
+              </tr>
+              <tr>
+                <td>2025 SBS 가요대전: Golden Loop</td>
+                <td>
+                  <img src="./flags/south-korea.png" alt="한국 국기" class="flag-icon">
+                  인스파이어 아레나(INSPIRE ARENA)(인천광역시)
+                </td>
+                <td>2025.12.25(Thu)</td>
+              </tr>
+              <tr>
+                <td>2025 MBC 가요대제전: 멋</td>
+                <td>
+                  <img src="./flags/south-korea.png" alt="한국 국기" class="flag-icon">
+                  MBC 일산 드림센터 D6 스튜디오(경기도 일산시)
+                </td>
+                <td>2025.12.31(Wed)</td>
+              </tr>
+              <tr>
+                <td>제76회 NHK 홍백가합전(第76回NHK紅白歌合戦)</td>
+                <td>
+                  <img src="./flags/japan.png" alt="일본 국기" class="flag-icon">
+                  NHK 홀(일본 도쿄)
+                </td>
+                <td>2026.02.19(Thu)</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- 3. 브랜드 · 기타 행사 -->
+        <section class="schedule-section" aria-labelledby="event-title">
+          <h3 id="event-title">브랜드 · 기타 행사</h3>
+
+          <table class="schedule-table">
+            <caption>브랜드 · 기타 행사 일정</caption>
+            <thead>
+              <tr>
+                <th scope="col">행사명</th>
+                <th scope="col">장소(국가명 및 지역명 포함)</th>
+                <th scope="col">날짜/시간</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Love Your W 2025</td>
+                <td>
+                  <img src="./flags/south-korea.png" alt="한국 국기" class="flag-icon">
+                  포시즌스 호텔 서울 3F 그랜드 볼룸(서울특별시)
+                </td>
+                <td>2025.10.15(Wed)</td>
+              </tr>
+              <tr>
+                <td>미쟝센 퍼펙트 세럼 팝업 행사</td>
+                <td>
+                  <img src="./flags/south-korea.png" alt="한국 국기" class="flag-icon">
+                  올리브영 N 성수(서울특별시)
+                </td>
+                <td>2025.12.31(Wed)</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
