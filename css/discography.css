@@ -90,6 +90,13 @@ section {
   color: #000000;
 }
 
+.whiplash {
+  background-color: #000000;
+  border: 1px solid #000000;
+
+  color: #ffffff;
+}
+
 .album {
   display: flex;
   flex-direction: column;
@@ -170,6 +177,9 @@ section {
 .drama .tracklist th {
   color: #000000;
 }
+.whiplash .tracklist th {
+  color: #ffffff;
+}
 .tracklist td {
   background-color: white;
 }
@@ -232,6 +242,13 @@ section {
 
   color: #000000;
 }
+.whiplash .badges p {
+  background-color: #000000;
+  border: 1px solid #000000;
+
+  color: #ffffff;
+}
+
 .link {
   width: 80px;
 }
