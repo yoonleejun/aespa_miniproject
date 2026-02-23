@@ -36,21 +36,21 @@ section {
   border: 1px solid #0d0a0e;
 
   color: white;
-  -webkit-text-stroke: 0.3px #ff00ff;
+  -webkit-text-stroke: 0.3px #d920ca;
   text-shadow:
-    0 0 2px #ff00ff,
-    0 0 6px #ff00ff,
-    0 0 12px #ff00ff,
-    0 0 24px #ff00ff,
-    0 0 48px #ff00ff;
+    0 0 2px #d920ca,
+    0 0 6px #d920ca,
+    0 0 12px #d920ca,
+    0 0 24px #d920ca,
+    0 0 48px #d920ca;
 }
 
 .savage {
-  background-color: #b1d0ec;
+  background-image: linear-gradient(to right, #85acde, #bcd9ef);
 
   border: 1px solid #b1d0ec;
 
-  color: #00001c;
+  color: #000000;
 }
 
 .girls {
@@ -83,8 +83,6 @@ section {
 
   border-collapse: collapse;
 
-  background-color: white;
-
   margin-bottom: 15px;
 
   color: black;
@@ -105,6 +103,7 @@ section {
 
   color: #dceac5;
 }
+
 .supernova .tracklist table,
 .supernova .tracklist th,
 .supernova .tracklist td {
@@ -115,13 +114,13 @@ section {
 .supernova .tracklist th {
   background-color: #0d0a0e;
 
-  color: #ff00ff;
+  color: #d920ca;
 }
 
 .savage .tracklist th {
-  background-color: #b1d0ec;
+  background-color: transparent;
 
-  color: #00001c;
+  color: #000000;
 }
 
 .girls .tracklist th {
@@ -134,7 +133,12 @@ section {
   font-weight: 600;
   padding: 15px;
 }
+.tracklist td {
+  font-weight: 600;
+  padding: 15px;
 
+  background-color: white;
+}
 .num {
   width: 80px;
 }
@@ -164,17 +168,17 @@ section {
   background-color: #0d0a0e;
   font-size: 11px;
   font-weight: 500;
-  color: #ff00ff;
+  color: #d920ca;
 }
 .savage .badges p {
   padding: 5px;
   border: 1px solid #b1d0ec;
   border-radius: 45px;
 
-  background-color: #b1d0ec;
+  background-image: linear-gradient(to right, #85acde, #bcd9ef);
   font-size: 11px;
   font-weight: 500;
-  color: #00001c;
+  color: #000000;
 }
 .girls .badges p {
   padding: 5px;
