@@ -47,6 +47,18 @@ section {
     0 0 24px #ff00ff,
     0 0 48px #ff00ff;
 }
+
+.savage {
+  background-color: #b1d0ec;
+
+  border-radius: 45px;
+  overflow: hidden;
+
+  border: 1px solid #b1d0ec;
+
+  color: #00001c;
+}
+
 .album {
   display: flex;
   flex-direction: column;
@@ -105,6 +117,16 @@ section {
   color: #ff00ff;
 }
 
+.savage .tracklist table,
+.savage .tracklist th,
+.savage .tracklist td {
+  border: 1px solid #b1d0ec;
+  padding: 5px;
+
+  text-align: center;
+  vertical-align: middle;
+}
+
 .tracklist th {
   font-weight: 600;
 }
@@ -141,7 +163,16 @@ section {
   font-weight: 500;
   color: #ff00ff;
 }
+.savage .badges p {
+  padding: 5px;
+  border: 1px solid #b1d0ec;
+  border-radius: 45px;
 
+  background-color: #b1d0ec;
+  font-size: 11px;
+  font-weight: 500;
+  color: #00001c;
+}
 .link {
   width: 60px;
 }
