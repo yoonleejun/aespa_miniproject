@@ -5,26 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>갤러리 - aespa</title>
     <link rel="stylesheet" href="css/reset.css" />
+    <!-- <link rel="stylesheet" href="css/common.css" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/gallery.css" />
   </head>
   <body>
     <main>
-      <h1>GALLERY</h1>
-      <section>
-        <h2>MV</h2>
-        <div>
-          <img src="https://picsum.photos/360/200" />
-          <img src="https://picsum.photos/360/200" />
-          <img src="https://picsum.photos/360/200" />
+      <div class="gallery-container">
+        <div class="gallery-header">
+          <h1>GALLERY</h1>
         </div>
-      </section>
-      <section>
-        <h2>Photo</h2>
-        <div>
-          <img src="https://picsum.photos/360/200" />
-          <img src="https://picsum.photos/360/200" />
-          <img src="https://picsum.photos/360/200" />
-        </div>
-      </section>
+
+        <!-- aespa MV 목록 -->
+        <section class="gallery-section">
+          <h2>MV</h2>
+          <div class="mv-container">
+            <div class="mv-card">
+              <img
+                src="https://img.youtube.com/vi/jWQx2f-CErU/hqdefault.jpg"
+                alt="Whiplash 썸네일"
+                class="mv-thumbnail"
+              />
+              <p><strong>Whiplash</strong> - aespa</p>
+            </div>
+            <div class="mv-card">
+              <img
+                src="https://img.youtube.com/vi/nFYwcndNuOY/hqdefault.jpg"
+                alt="Whiplash 썸네일"
+                class="mv-thumbnail"
+              />
+              <p>Armageddon - aespa</p>
+            </div>
+            <div class="mv-card">
+              <img
+                src="https://img.youtube.com/vi/phuiiNCxRMg/hqdefault.jpg"
+                alt="Whiplash 썸네일"
+                class="mv-thumbnail"
+              />
+              <p>Supernova - aespa</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- aespa 사진 목록 -->
+        <section class="gallery-section">
+          <h2>Photo</h2>
+          <div class="photo-container">
+            <img src="images/aespa-photo/photo_1.jpg" class="photo" />
+            <img src="images/aespa-photo/photo_2.jpg" class="photo" />
+            <img src="images/aespa-photo/photo_3.jpg" class="photo" />
+            <img src="images/aespa-photo/photo_4.jpg" class="photo" />
+            <img src="images/aespa-photo/photo_5.jpg" class="photo" />
+            <img src="images/aespa-photo/photo_6.jpg" class="photo" />
+            <img src="images/aespa-photo/photo_7.jpg" class="photo" />
+            <img src="images/aespa-photo/photo_8.jpg" class="photo" />
+            <img src="images/aespa-photo/photo_9.jpg" class="photo" />
+            <img src="images/aespa-photo/photo_10.jpg" class="photo" />
+            <img src="images/aespa-photo/photo_11.jpg" class="photo" />
+            <img src="images/aespa-photo/photo_12.jpg" class="photo" />
+          </div>
+        </section>
+      </div>
     </main>
   </body>
 </html>
