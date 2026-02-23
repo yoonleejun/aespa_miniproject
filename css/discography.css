@@ -48,7 +48,7 @@ section {
 .savage {
   background-image: linear-gradient(to right, #85acde, #bcd9ef);
 
-  border: 1px solid #b1d0ec;
+  border: 1px solid #bcd9ef;
 
   color: #000000;
 }
@@ -59,6 +59,14 @@ section {
   border: 1px solid #010101;
 
   color: #5faae1;
+}
+
+.illusion {
+  background-image: linear-gradient(to bottom, #62719a, #a7a5cc);
+
+  border: 1px solid #a7a5cc;
+
+  color: #ffffff;
 }
 
 .album {
@@ -129,6 +137,12 @@ section {
   color: #5faae1;
 }
 
+.illusion .tracklist th {
+  background-color: transparent;
+
+  color: #ffffff;
+}
+
 .tracklist th {
   font-weight: 600;
   padding: 15px;
@@ -189,6 +203,16 @@ section {
   font-size: 11px;
   font-weight: 500;
   color: #5faae1;
+}
+.illusion .badges p {
+  padding: 5px;
+  border: 1px solid #a7a5cc;
+  border-radius: 45px;
+
+  background-image: linear-gradient(to bottom, #62719a, #a7a5cc);
+  font-size: 11px;
+  font-weight: 500;
+  color: #ffffff;
 }
 .link {
   width: 80px;
