@@ -1,0 +1,57 @@
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 150px;
+
+  gap: 50px;
+}
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 15px;
+}
+.armageddon {
+  background-color: #455c38;
+
+  border-radius: 45px;
+  overflow: hidden;
+
+  border: 1px solid #455c38;
+}
+
+.album {
+  text-align: center;
+}
+
+.cover {
+  display: block;
+  width: 500px;
+}
+
+table {
+  width: 100%;
+  padding-bottom: 7px;
+
+  border-collapse: collapse;
+
+  background-color: white;
+
+  margin-bottom: 40px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #455c38;
+  padding: 5px;
+}
+.num {
+  width: 60px;
+}
+.link {
+  width: 60px;
+}
