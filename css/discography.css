@@ -22,7 +22,7 @@ section {
 .armageddon {
   background-color: #455c38;
 
-  border-radius: 45px;
+  border-radius: 15px;
   overflow: hidden;
 
   border: 1px solid #455c38;
@@ -83,7 +83,7 @@ section {
 
   background-color: white;
 
-  margin-bottom: 40px;
+  margin-bottom: 15px;
 
   color: black;
 }
