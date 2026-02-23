@@ -24,11 +24,7 @@ body {
 }
 
 /* --- Header --- */
-.site-header { 
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
+.site-header {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -57,7 +53,7 @@ body {
   font-weight: 600;
 }
 
-.header__item a{
+.header__item a {
   position: relative;
   padding-bottom: 4px;
 }
