@@ -69,6 +69,13 @@ section {
   color: #ffffff;
 }
 
+.my-world {
+  background-image: linear-gradient(to bottom, #1e76c0, #399ae9);
+  border: 1px solid #399ae9;
+
+  color: #04dd73;
+}
+
 .album {
   display: flex;
   flex-direction: column;
@@ -100,15 +107,14 @@ section {
 .tracklist th,
 .tracklist td {
   border: 1px solid #dddddd;
-  padding: 5px;
 
+  padding: 5px;
   text-align: center;
   vertical-align: middle;
 }
 
 .armageddon .tracklist th {
   background-color: #455c38;
-
   color: #dceac5;
 }
 
@@ -139,8 +145,12 @@ section {
 
 .illusion .tracklist th {
   background-color: transparent;
-
   color: #ffffff;
+}
+
+.my-world .tracklist th {
+  background-color: transparent;
+  color: #04dd73;
 }
 
 .tracklist th {
@@ -164,55 +174,41 @@ section {
   margin-top: 6px;
   gap: 5px;
 }
-.armageddon .badges p {
+.badges p {
   padding: 5px;
-  border: 1px solid #455c38;
   border-radius: 45px;
-
-  background-color: #455c38;
   font-size: 11px;
-  font-weight: 500;
+}
+.armageddon .badges p {
+  border: 1px solid #455c38;
+  background-color: #455c38;
   color: #dceac5;
 }
 .supernova .badges p {
-  padding: 5px;
   border: 1px solid #0d0a0e;
-  border-radius: 45px;
-
   background-color: #0d0a0e;
-  font-size: 11px;
-  font-weight: 500;
   color: #d920ca;
 }
 .savage .badges p {
-  padding: 5px;
   border: 1px solid #b1d0ec;
-  border-radius: 45px;
-
   background-image: linear-gradient(to right, #85acde, #bcd9ef);
-  font-size: 11px;
-  font-weight: 500;
   color: #000000;
 }
 .girls .badges p {
-  padding: 5px;
   border: 1px solid #010101;
-  border-radius: 45px;
-
   background-color: #010101;
-  font-size: 11px;
-  font-weight: 500;
   color: #5faae1;
 }
 .illusion .badges p {
-  padding: 5px;
   border: 1px solid #a7a5cc;
-  border-radius: 45px;
-
   background-image: linear-gradient(to bottom, #62719a, #a7a5cc);
-  font-size: 11px;
-  font-weight: 500;
   color: #ffffff;
+}
+.my-world .badges p {
+  background-image: linear-gradient(to bottom, #1e76c0, #399ae9);
+  border: 1px solid #399ae9;
+
+  color: #04dd73;
 }
 .link {
   width: 80px;
@@ -221,5 +217,5 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60px;
+  width: 100px;
 }
