@@ -1,0 +1,63 @@
+table {
+  width: 1000px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+}
+
+thead tr {
+  background: linear-gradient(to right, #c88ddd, #9ceafe);
+  color: white;
+}
+
+tbody tr {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+}
+
+.write-button-containter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: column;
+}
+
+.pagination ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  align-items: center;
+}
+
+.pagination-click {
+  background: linear-gradient(to right, #c88ddd, #9ceafe);
+  border-radius: 100px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.pagination-button {
+  cursor: pointer;
+}
