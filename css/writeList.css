@@ -21,16 +21,22 @@ tbody tr {
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 20px;
   background-color: white;
 }
 
-.write-button-containter {
+.writeList {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+}
+
+.write-button-containter {
+  display: flex;
   justify-content: flex-end;
+  padding: 0px 10px 5px 0px;
+  cursor: pointer;
 }
 
 .pagination {
