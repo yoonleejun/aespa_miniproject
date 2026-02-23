@@ -65,7 +65,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 25px;
 }
 
 .mv-card p {
@@ -76,6 +76,69 @@ main {
   width: 360px;
   height: 200px;
   border-radius: 20px;
+  transition: transform 0.3s ease;
+
+  cursor: pointer;
+}
+
+.mv-thumbnail:hover {
+  transform: scale(1.1);
+}
+
+/* 1. 모달 기본 상태 (숨김) */
+.css-modal {
+  display: none; /* 평소에는 안 보임 */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+}
+
+/* 2. 핵심 로직: URL에 #youtube-popup-n이 붙으면 모달 표시 */
+.css-modal:target {
+  display: block;
+}
+
+/* 중앙 정렬 컨텐츠 */
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 800px;
+}
+
+/* 닫기 버튼 (#을 빈 링크로 보내 target을 해제함) */
+.close-btn {
+  color: white;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.close-btn:hover {
+  color: #ff4c4c;
+}
+
+/* 16:9 반응형 유튜브 */
+.youtube-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  clear: both;
+}
+.youtube-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
 }
 
 .gallery-section {
@@ -105,4 +168,8 @@ main {
 
 .photo:hover {
   transform: scale(1.2);
+}
+
+strong {
+  font-weight: 600;
 }
