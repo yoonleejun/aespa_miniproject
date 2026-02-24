@@ -46,11 +46,26 @@ tbody tr {
   cursor: pointer;
 }
 
+.write-summary:hover {
+  background-color: rgb(245, 245, 245);
+}
+
 .write-button-containter {
   display: flex;
   justify-content: flex-end;
   padding: 0px 10px 5px 0px;
   cursor: pointer;
+}
+
+.write-icon {
+  transition: transform 0.15s ease;
+}
+.write-icon:hover {
+  transform: scale(1.2);
+}
+
+.write-icon:active {
+  transform: scale(0.9);
 }
 
 .pagination {
