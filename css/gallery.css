@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+/* Top 버튼 클릭 시 스크롤 부드럽게  */
+html {
+  scroll-behavior: smooth;
+}
+
 main {
   display: flex;
   flex-direction: column;
