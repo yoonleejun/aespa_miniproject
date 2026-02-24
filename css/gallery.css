@@ -8,6 +8,7 @@ main {
   align-items: center;
 }
 
+/* 히어로 영역 제목  */
 .gallery-container h1 {
   font-size: 64px;
   font-weight: 700;
@@ -18,11 +19,13 @@ main {
   filter: drop-shadow(0px 0px 7px #fc6a6a);
 }
 
+/* 각 파트 제목 */
 .gallery-section h2 {
   font-size: 36px;
   font-weight: 700;
 }
 
+/* 갤러리 페이지 메인 레이아웃 */
 .gallery-container {
   display: flex;
   width: 1400px;
@@ -35,6 +38,7 @@ main {
   gap: 90px;
 }
 
+/* 히어로 영역 레이아웃 */
 .gallery-header {
   display: flex;
   width: 100vw;
@@ -52,6 +56,7 @@ main {
   opacity: 0.25;
 }
 
+/* MV 목록 레이아웃 */
 .mv-container {
   display: flex;
   width: 1200px;
@@ -68,6 +73,7 @@ main {
   gap: 25px;
 }
 
+/* MV 제목 */
 .mv-card p {
   font-size: 20px;
 }
@@ -147,6 +153,7 @@ main {
   gap: 40px;
 }
 
+/* Photo 영역 레이아웃 */
 .photo-container {
   display: grid;
   width: 1200px;
@@ -157,11 +164,8 @@ main {
 }
 
 .photo {
-  /* width: 360px;
-  height: 200px; */
-
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   object-fit: fill;
   transition: transform 0.3s ease;
 }
