@@ -1,4 +1,4 @@
-main {
+.main {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -10,28 +10,40 @@ main {
   font-family: sans-serif;
 }
 
-/* 섹션 */
-section {
+/* hero */
+.hero {
+  height: 400px;
+
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  gap: 15px;
+  align-items: center;
 
-  border-radius: 15px;
+  background-color: #000000;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/images/discography-hero-logo.png");
+
+  background-size: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1.6;
+
+  background: linear-gradient(to right, #c88ddd, #9ceafe);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
+/* side bar */
 .type {
   display: grid;
   grid-template-columns: 160px 1fr;
   gap: 32px;
   align-items: start;
-}
-.albums {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-
-  overflow: hidden;
 }
 .side {
   position: sticky;
@@ -46,6 +58,23 @@ section {
   background-image: linear-gradient(to right, #c88ddd, #9ceafe);
   color: white;
   font-weight: 1000;
+}
+
+/* 섹션 */
+.albums {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  overflow: hidden;
+}
+.albums section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+
+  border-radius: 15px;
 }
 .album-num {
   font-weight: 600;
