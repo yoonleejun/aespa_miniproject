@@ -58,7 +58,7 @@ tbody tr {
 }
 
 .write-icon {
-  transition: transform 0.15s ease;
+  transition: transform 0.25s ease;
 }
 .write-icon:hover {
   transform: scale(1.2);

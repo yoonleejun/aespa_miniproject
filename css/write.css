@@ -47,6 +47,15 @@ input {
   box-shadow: 0 2px 2px black;
   cursor: pointer;
   font-weight: 600;
+  transition: transform 0.25s ease;
+}
+
+.back-button:hover {
+  transform: scale(1.1);
+}
+
+.back-button:active {
+  transform: scale(0.9);
 }
 
 .submit-button {
@@ -57,6 +66,15 @@ input {
   cursor: pointer;
   font-weight: 600;
   color: white;
+  transition: transform 0.25s ease;
+}
+
+.submit-button:hover {
+  transform: scale(1.1);
+}
+
+.submit-button:active {
+  transform: scale(0.9);
 }
 
 .input {
@@ -144,4 +162,12 @@ input {
   border-radius: 8px;
   box-shadow: 0 2px 2px black;
   cursor: pointer;
+  transition: transform 0.25s ease;
+}
+.modal-button:hover {
+  transform: scale(1.1);
+}
+
+.modal-button:active {
+  transform: scale(0.9);
 }
