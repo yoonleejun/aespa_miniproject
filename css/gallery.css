@@ -27,6 +27,7 @@ main {
 .gallery-hero-section h1 {
   font-size: 4rem;
   font-weight: 700;
+  letter-spacing: 0.375rem;
   background: linear-gradient(
     to right,
     var(--color-aespa-aurora-1),
