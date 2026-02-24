@@ -24,7 +24,7 @@ header h1 {
 #schedule-title {
   text-align: center;
   margin: 16px 0 24px;  /* 로고랑 간격 조금 띄워줌 */
-  font-size: 32px;       /* 기본 h2보다 한 단계 크게 */
+  font-size: 28px;       /* 기본 h2보다 한 단계 크게 */
 }
 
 /* 여러 개 일정표 섹션 간 간격 + 소제목 스타일 */
@@ -93,4 +93,29 @@ header h1 {
   height: auto;
   margin-right: 6px;
   vertical-align: -2px;
+}
+
+/* 맨 위로 가기 버튼 */
+.to-top {
+  position: fixed;      /* 화면에 고정 (필수 요구사항 position: fixed) */
+  right: 24px;          /* 오른쪽에서 떨어진 거리 */
+  bottom: 24px;         /* 아래에서 떨어진 거리 */
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;   /* 동그랗게 */
+  border: 1px solid #ccc;
+  background: #ffffff;
+  display: flex;        /* 가운데 정렬 */
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #111;
+  font-size: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+/* 호버 시 살짝 진하게 */
+.to-top:hover {
+  background: #f5f5f5;
 }
