@@ -112,6 +112,7 @@ main {
 
 .mv-thumbnail:hover {
   transform: scale(1.1);
+  border: 3px solid var(--color-aespa-aurora-1);
 }
 
 /* 1. 모달 기본 상태 (숨김) */
