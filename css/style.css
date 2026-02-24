@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  background: #f0f0f0;
+}
+
+.frame {
+  width: 100%;
+  max-width: 1453px;
+  min-height: 1173px;
+  margin: 0 auto;
+  background: hsl(0, 0%, 100%);
+  padding: 24px 28px;
+  box-sizing: border-box;
+}
+
+header h1 {
+  text-align: center;
+  margin: 0 0 8px;
+}
+
+#schedule-title {
+  text-align: center;
+  margin: 16px 0 24px;
+  font-size: 28px;      
+}
+
+.schedule-section {
+  margin-top: 48px;
+  margin-bottom: 40px;
+}
+
+.schedule-section h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule-table caption {
+  text-align: center;
+  font-weight: 600;
+  padding: 8px 0 12px;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  vertical-align: top;
+}
+
+.schedule-table thead th {
+  background: #f5f5f5;
+  text-align: center;
+  font-weight: 600;
+}
+
+.schedule-table td {
+  word-break: keep-all;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.page-title {
+  margin: 0 0 8px;
+}
+
+.logo-img {
+  display: block;
+  margin: 0 auto 5px;
+  width: 150px;
+  height: auto;
+}
+
+.flag-icon {
+  width: 16px;
+  height: auto;
+  margin-right: 6px;
+  vertical-align: -2px;
+}
+
+.to-top {
+  position: fixed;     
+  right: 24px;
+  bottom: 24px;         
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #111;
+  font-size: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.to-top:hover {
+  background: #f5f5f5;
+}
+
+.tour-route {
+  display: block;
+  margin-top: 4px;
+  margin-left: 16px;
+  font-size: 0.95em;
+  color: #555;
+}
+
+.route-line {
+  display: block;
+  line-height: 1.4;
+}
+
+.github-icon {
+  width: 34px;
+  height: 34px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* 제목은 밝게 + 굵게 유지 */
+.team-title {
+  color: #ffffff;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* 이름 목록은 12기 느낌의 연한 회색 + 안 굵게 */
+.team-members {
+  color: #a7b0c3;   /* 12기 쪽에 보이는 회색톤 느낌 */
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 400;
+  opacity: 1;
+}
+
+/* 혹시 부모에서 bold가 상속되면 강제로 해제 */
+.team-members div,
+.team-members li,
+.team-members span {
+  font-weight: 400;
+}
+
+/* ===== 로고 이미지 크기 조절 ===== */
+.logo {
+  margin: 0;
+  line-height: 1;
+  font-size: 0;      /* 텍스트 로고 스타일 영향 제거 */
+  letter-spacing: 0;
+}
+
+.logo a {
+  display: inline-flex;
+  align-items: center;
+}
+
+.header-logo-img {
+  display: block;
+  width: 50px;       /* ← 여기 숫자 줄이면 더 작아짐 */
+  height: auto;
+}
+
+.footer-logo {
+  line-height: 1;
+  font-size: 0;
+  letter-spacing: 0;
+}
+
+.footer-logo-img {
+  display: block;
+  width: 50px;      /* ← 여기 숫자 줄이면 더 작아짐 */
+  height: auto;
+}
+
+.page-header .header-logo-img {
+  display: block;
+  width: auto !important;
+  height: 36px !important;
+  max-width: 90px !important;
+  max-height: 36px !important;
+  object-fit: contain !important;
+  flex-shrink: 0;
+}
+
+/* 로고를 이미지로 쓸 때 크기/배치 고정 */
+.logo {
+  margin: 0;
+  line-height: 1;
+  font-size: 0; /* 텍스트 크기 영향 제거 */
+  letter-spacing: 0;
+  font-family: inherit;
+}
+
+.logo a {
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer-logo {
+  line-height: 1;
+  font-size: 0;
+  letter-spacing: 0;
+  color: inherit;
+}
+
+/* ===== 로고 이미지 크기 강제 고정 (맨 아래에 넣기) ===== */
+.site-header .header-logo-img {
+  display: block !important;
+  width: 90px !important;      /* 여기 숫자 줄이면 더 작아짐 */
+  height: auto !important;
+  max-width: 90px !important;
+  max-height: none !important;
+  object-fit: contain !important;
+}
+
+.site-footer .footer-logo-img {
+  display: block !important;
+  width: 120px !important;     /* 여기 숫자 줄이면 더 작아짐 */
+  height: auto !important;
+  max-width: 120px !important;
+  max-height: none !important;
+  object-fit: contain !important;
+}
+
+/* 텍스트 로고 스타일 영향 제거 */
+.logo,
+.footer-logo {
+  font-size: 0 !important;
+  line-height: 1 !important;
+  letter-spacing: 0 !important;
+}
+
+.logo a {
+  display: inline-flex !important;
+  align-items: center !important;
+}

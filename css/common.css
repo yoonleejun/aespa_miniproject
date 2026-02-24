@@ -1,0 +1,174 @@
+/* --- BASE / RESET --- */
+.sr-only {
+  position: absolute;
+  width: 0.0625rem;
+  height: 0.0625rem;
+  padding: 0;
+  margin: -0.0625rem;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+:root {
+  --primary-color: #223055;
+  --color-background: #ffffff;
+  --color-text: #111111;
+}
+
+body {
+  font-family: "Google Sans Flex", "Noto Sans KR";
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+/* --- Header --- */
+.site-header { 
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 120px;
+  background-color: var(--color-background);
+  border: 1px solid var(--color-text);
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 80px;
+}
+
+.header__logo {
+  width: 175px;
+  height: 64px;
+}
+
+.header__menu {
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.header__item a{
+  position: relative;
+  padding-bottom: 4px;
+}
+
+.header__item a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: var(--primary-color);
+  transition: width 0.3s ease;
+}
+
+.header__item a:hover::after {
+  width: 100%;
+}
+
+
+/* Footer */
+.site-footer {
+  width: 100%;
+  color: var(--color-background);
+  background-color: var(--primary-color);
+}
+
+.footer__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 70px;
+  width: 100%;
+  padding: 50px 80px;
+  margin: 0 auto;
+}
+
+.footer__top, .footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.footer__logo {
+  width: 175px;
+  opacity: 0.5;
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__info-team, .footer__info-code {
+  display: flex;
+  gap: 75px;
+}
+
+.footer__info-code {
+  align-items: center;
+}
+
+.footer__info-title, .footer__code-title {
+  font-size: 14px;
+}
+
+.footer__members {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.footer__member {
+  font-size: 12px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__member:first-child {
+  font-weight: 700;
+}
+
+.footer__github img {
+  margin-left: 80px;
+  width: 24px;
+  height: 24px;
+}
+
+.footer__team {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__code {
+  display: flex;
+  align-items: center;
+}
+
+.footer__bottom {
+  align-items: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__social {
+  display: flex;
+  gap: 15px;
+}
+
+.footer__copyright {
+  font-size: 16px;
+  font-weight: 400;
+}
