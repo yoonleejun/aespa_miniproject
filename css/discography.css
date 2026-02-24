@@ -97,6 +97,13 @@ section {
   color: #ffffff;
 }
 
+.rich-man {
+  background-color: #091ea9;
+  border: 1px solid #091ea9;
+
+  color: #fbf150;
+}
+
 .album {
   display: flex;
   flex-direction: column;
@@ -180,6 +187,9 @@ section {
 .whiplash .tracklist th {
   color: #ffffff;
 }
+.rich-man .tracklist th {
+  color: #fbf150;
+}
 .tracklist td {
   background-color: white;
 }
@@ -248,7 +258,14 @@ section {
 
   color: #ffffff;
 }
+.rich-man .badges p {
+  background-color: #091ea9;
+  border: 1px solid #091ea9;
 
+  color: #fbf150;
+}
+.rich-man {
+}
 .link {
   width: 80px;
 }
