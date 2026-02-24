@@ -115,6 +115,18 @@ section {
 
   color: white;
 }
+.forever {
+  background-image: linear-gradient(to right, #fdbacb, #baa3df);
+  border: 1px solid #fdbacb;
+
+  color: white;
+}
+.next-level {
+  background-image: linear-gradient(to right, #d8afa6, #fae1b6);
+  border: 1px solid #fae1b6;
+
+  color: #000000;
+}
 
 /* 섹션 내부 */
 .album {
@@ -215,7 +227,16 @@ section {
 .black-mamba .tracklist th {
   color: #ffffff;
 }
+.forever .tracklist th {
+  color: #ffffff;
+}
+.next-level .tracklist th {
+  color: #000000;
+}
 
+.adult {
+  width: 15px;
+}
 .badges {
   display: flex;
   align-items: center;
@@ -299,4 +320,16 @@ section {
   border: 1px solid #5f37a1;
 
   color: white;
+}
+.forever .badges p {
+  background-image: linear-gradient(to right, #fdbacb, #baa3df);
+  border: 1px solid #fdbacb;
+
+  color: white;
+}
+.next-level .badges p {
+  background-image: linear-gradient(to right, #d8afa6, #fae1b6);
+  border: 1px solid #fae1b6;
+
+  color: #000000;
 }
