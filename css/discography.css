@@ -48,7 +48,7 @@
 }
 .side {
   position: sticky;
-  top: 50px;
+  top: 150px;
 
   text-align: center;
   height: fit-content;
@@ -59,6 +59,7 @@
   background-image: linear-gradient(to right, #c88ddd, #9ceafe);
   color: white;
   font-weight: 1000;
+  transition: 0.3s;
 }
 
 /* 섹션 */
@@ -131,7 +132,7 @@
 }
 .welcome-to-my-world {
   background-image: linear-gradient(to bottom, #8cc0cd, #33472e);
-  border: 1px solid #33472e;
+  border: 1px solid #8cc0cd;
 
   color: #ffffff;
 }
@@ -340,11 +341,11 @@
   color: #5faae1;
 }
 .illusion .badges p {
-  background-image: linear-gradient(to bottom, #62719a, #a7a5cc);
+  background-color: #a7a5cc;
   color: #ffffff;
 }
 .my-world .badges p {
-  background-image: linear-gradient(to bottom, #1e76c0, #399ae9);
+  background-color: #399ae9;
 
   color: #04dd73;
 }
@@ -395,7 +396,7 @@
   color: #000000;
 }
 .synk-parallel-line .badges p {
-  background-image: linear-gradient(to bottom, #2c325b, #6b88af, #b9cbd8);
+  background-color: #b9cbd8;
 
   color: #ffffff;
 }
