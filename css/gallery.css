@@ -7,6 +7,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  min-width: 87.5rem;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -43,7 +47,7 @@ main {
 
   margin-bottom: 3.125rem;
 
-  gap: 130px;
+  gap: 8.125rem;
 }
 
 /* 히어로 영역 레이아웃 */
