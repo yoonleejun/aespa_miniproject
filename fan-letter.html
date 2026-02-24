@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>에스파 팬페이지</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/fan-letter.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header__inner">
+        <h1>
+          <a href="./index.html">
+            <img
+              src="./images/logo-black.svg"
+              alt="aespa"
+              class="header__logo"
+            />
+          </a>
+        </h1>
+
+        <nav class="header__nav">
+          <ul class="header__menu">
+            <li class="header__item"><a href="./about.html">About</a></li>
+            <li class="header__item">
+              <a href="./discography.html">Discography</a>
+            </li>
+            <li class="header__item"><a href="./gallery.html">Gallery</a></li>
+            <li class="header__item"><a href="./schedule.html">Schedule</a></li>
+            <li class="header__item">
+              <a href="./community.html">Community</a>
+            </li>
+            <li class="header__item">
+              <a href="./fan-letter.html">Fan-letter</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- 페이지 영역 -->
+    <main class="letter-container">
+      <section class="letter-card">
+        <h1>💌 FAN LETTER 💌</h1>
+        <h3 class="letter-msg">
+          멤버들을 향한 모욕성 메시지는 삭제 조치 됩니다. 아름다운 마음만
+          담아주세요.💕
+        </h3>
+        <form
+          name="frm-letter"
+          method="post"
+          enctype="multipart/form-data"
+          action="#"
+        >
+          <div class="form-row">
+            <label for="name">닉네임</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+          <div class="form-row">
+            <label for="email">이메일</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+          <div class="form-row">
+            <label for="message">메시지</label>
+            <textarea id="message" name="message" rows="7" required></textarea>
+          </div>
+          <div class="form-row">
+            <label for="file">첨부파일</label>
+            <input type="file" id="file" name="file" accept="image/*" />
+            <small class="letter-msg">첨부파일은 이미지만 가능합니다.</small>
+          </div>
+
+          <button type="submit">보내기</button>
+        </form>
+      </section>
+    </main>
+    <!-- // 페이지 영역 -->
+    <footer class="site-footer">
+      <div class="footer__inner">
+        <div class="footer__top">
+          <!-- 로고 -->
+          <a href="#">
+            <img
+              src="/images/logo-white.svg"
+              alt="aespa"
+              class="footer__logo"
+            />
+          </a>
+
+          <!-- 팀 정보 + 깃허브 -->
+          <div class="footer__info">
+            <!-- 팀 정보 -->
+            <div class="footer__info-team">
+              <strong class="footer__team-title">Sprinter Team 4</strong>
+              <ul class="footer__members">
+                <li class="footer__member">PARK SO JEONG</li>
+                <li class="footer__member">YOO SEO HYEON</li>
+                <li class="footer__member">YOON LEE JUN</li>
+                <li class="footer__member">LEE SANG YUN</li>
+                <li class="footer__member">LEE JI YEON</li>
+                <li class="footer__member">CHOI HYE SEONG</li>
+                <li class="footer__member">CHOO MYUNG GON</li>
+              </ul>
+            </div>
+
+            <!-- 코드 영역 -->
+            <div class="footer__info-code">
+              <strong class="footer__code-title">CODE</strong>
+              <a
+                href="https://github.com/yoonleejun/aespa_miniproject"
+                class="footer__github"
+              >
+                <img src="/images/icon-link-github.svg" alt="GitHub" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SNS + 카피 -->
+        <div class="footer__bottom">
+          <div class="footer__social">
+            <a
+              href="https://x.com/aespa_official"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__social-link"
+            >
+              <span class="sr-only">에스파 공식 X</span>
+              <img src="/images/icon-link-x.svg" alt="" aria-hidden="true" />
+            </a>
+
+            <a
+              href="https://www.youtube.com/@aespa"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__social-link"
+            >
+              <span class="sr-only">에스파 공식 유튜브</span>
+              <img
+                src="/images/icon-link-youtube.svg"
+                alt=""
+                aria-hidden="true"
+              />
+            </a>
+
+            <a
+              href="https://www.instagram.com/aespa_official"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__social-link"
+            >
+              <span class="sr-only">에스파 공식 인스타그램</span>
+              <img
+                src="/images/icon-link-instagram.svg"
+                alt=""
+                aria-hidden="true"
+              />
+            </a>
+          </div>
+
+          <p class="footer__copyright">
+            ⓒ 2026 FS-sprint 4팀 (12기) All rights reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

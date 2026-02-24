@@ -1,0 +1,83 @@
+/* 전체 중앙 정렬 */
+.letter-container {
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+/* 카드 UI */
+.letter-card {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 600px;
+}
+
+.letter-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.letter-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* 폼 레이아웃 */
+.letter-card .form-row {
+  display: grid;
+  grid-template-columns: 100px minmax(0, 1fr);
+  gap: 10px;
+  margin-bottom: 12px;
+  align-items: center;
+}
+
+.letter-container label {
+  font-weight: bold;
+}
+
+/* input 스타일 */
+.letter-card input,
+.letter-card textarea {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.letter-card textarea {
+  resize: none;
+}
+
+.letter-card input[type="file"] {
+  max-width: 100%;
+}
+
+/* 버튼 */
+.letter-card button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #000;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.letter-card button:hover {
+  background: #223055;
+}
+
+/* 안내 메시지 */
+.letter-msg {
+  grid-column: 1 / -1;
+  font-size: 13px;
+  color: #949494;
+  text-align: center;
+}
