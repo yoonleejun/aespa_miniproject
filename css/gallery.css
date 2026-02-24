@@ -177,3 +177,18 @@ main {
 strong {
   font-weight: 600;
 }
+
+/* Top 버튼(화면 상단 이동) */
+.top-btn {
+  position: sticky;
+  bottom: 30px;
+  margin-bottom: 30px;
+  z-index: 999;
+
+  cursor: pointer;
+}
+
+.top-btn img {
+  width: 60px;
+  height: 60px;
+}
