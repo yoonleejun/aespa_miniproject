@@ -22,7 +22,7 @@
   background-color: #000000;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/images/discography-hero-logo.png");
+    url("images/discography-hero-logo.png");
 
   background-size: 500px;
   background-position: center;
@@ -62,7 +62,7 @@
   transition: 0.3s;
 }
 
-/* 섹션 */
+/* section */
 .albums {
   display: flex;
   flex-direction: column;
@@ -197,7 +197,7 @@
   color: #7f7e83;
 }
 
-/* 섹션 내부 */
+/* section inside */
 .album {
   display: flex;
   flex-direction: column;
@@ -214,7 +214,7 @@
   width: 800px;
 }
 
-/* 트랙리스트 테이블*/
+/* tracklist table */
 .tracklist {
   width: 100%;
   padding-bottom: 7px;
