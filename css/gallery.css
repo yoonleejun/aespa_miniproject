@@ -96,6 +96,10 @@ main {
   gap: 1.5625rem;
 }
 
+#mv {
+  scroll-margin-top: 9.375rem;
+}
+
 /* MV 제목 */
 .mv-card p {
   font-size: 1.25rem;
