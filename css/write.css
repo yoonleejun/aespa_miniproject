@@ -10,39 +10,39 @@ input {
   align-items: center;
   flex-direction: column;
   background-color: white;
-  padding: 70px 0px 70px 0;
+  padding: 4.375rem 0px 4.375rem 0;
 }
 
 .main-container {
-  width: 800px;
+  width: 50rem;
   background-color: #223055;
   display: flex;
   flex-direction: column;
-  padding: 40px;
+  padding: 2.5rem;
   box-shadow: 0 2px 2px black;
-  gap: 24px;
+  gap: 1.5rem;
   border-radius: 5px;
 }
 
 .input-container {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1rem;
 }
 .subtitle {
   color: white;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .button-container {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 1.25rem;
 }
 .back-button {
   background-color: white;
-  padding: 12px 23px 12px 23px;
+  padding: 0.75rem 1.4375rem 0.75rem 1.4375rem;
   border-radius: 8px;
   box-shadow: 0 2px 2px black;
   cursor: pointer;
@@ -60,7 +60,7 @@ input {
 
 .submit-button {
   background: linear-gradient(to right, #c88ddd, #9ceafe);
-  padding: 12px 23px 12px 23px;
+  padding: 0.75rem 1.4375rem 0.75rem 1.4375rem;
   border-radius: 8px;
   box-shadow: 0 2px 2px black;
   cursor: pointer;
@@ -79,24 +79,24 @@ input {
 
 .input {
   background-color: #f3f4f6;
-  padding: 16px 24px 16px 24px;
+  padding: 1rem 1.5rem 1rem 1.5rem;
   border-radius: 12px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .select {
   background-color: #f3f4f6;
-  padding: 21px 24px 21px 24px;
+  padding: 1.3125rem 1.5rem 1.3125rem 1.5rem;
   border-radius: 12px;
   outline: none;
 }
 
 .textarea {
   background-color: #f3f4f6;
-  padding: 21px 24px 21px 24px;
+  padding: 1.3125 1.5rem 1.3125 1.5rem;
   border-radius: 12px;
-  height: 350px;
+  height: 21.875rem;
   resize: none;
   outline: none;
 }
@@ -121,25 +121,25 @@ input {
 .modal-container {
   position: relative;
   background-color: white;
-  padding: 16px;
+  padding: 1rem;
   border-radius: 5px;
   display: flex;
-  width: 750px;
-  gap: 20px;
+  width: 46.875rem;
+  gap: 1.25rem;
   justify-content: space-between;
-  border: 10px solid transparent; /* 중요 */
+  border: 10px solid transparent;
   background:
     linear-gradient(white, white) padding-box,
     linear-gradient(to right, #c88ddd, #9ceafe) border-box;
 }
 
 .modal-img {
-  width: 400px;
+  width: 25rem;
   border: 1px solid black;
 }
 
 .modal-logo {
-  width: 100px;
+  width: 6.25rem;
 }
 
 .modal-info {
@@ -147,18 +147,18 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 1.875rem;
 }
 
 .modal-font {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .modal-button {
   background-color: #223055;
   color: white;
-  padding: 12px 23px 12px 23px;
+  padding: 0.75rem 1.4375rem 0.75rem 1.4375rem;
   border-radius: 8px;
   box-shadow: 0 2px 2px black;
   cursor: pointer;

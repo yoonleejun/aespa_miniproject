@@ -1,11 +1,11 @@
 table {
-  width: 900px;
+  width: 56.25rem;
   border-collapse: collapse;
 }
 
 th,
 td {
-  padding: 17px;
+  padding: 1.0625rem;
   text-align: center;
 }
 
