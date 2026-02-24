@@ -12,6 +12,8 @@ main {
 .album-num {
   font-weight: 600;
 }
+
+/* 섹션 */
 section {
   display: flex;
   justify-content: center;
@@ -22,6 +24,7 @@ section {
 
   gap: 15px;
 }
+
 .armageddon {
   background-color: #455c38;
 
@@ -29,7 +32,6 @@ section {
 
   color: #dceac5;
 }
-
 .supernova {
   background-color: #0d0a0e;
 
@@ -44,7 +46,6 @@ section {
     0 0 24px #d920ca,
     0 0 48px #d920ca;
 }
-
 .savage {
   background-image: linear-gradient(to right, #85acde, #bcd9ef);
 
@@ -52,7 +53,6 @@ section {
 
   color: #000000;
 }
-
 .girls {
   background-color: #010101;
 
@@ -60,7 +60,6 @@ section {
 
   color: #5faae1;
 }
-
 .illusion {
   background-image: linear-gradient(to bottom, #62719a, #a7a5cc);
 
@@ -68,42 +67,56 @@ section {
 
   color: #ffffff;
 }
-
 .my-world {
   background-image: linear-gradient(to bottom, #1e76c0, #399ae9);
   border: 1px solid #399ae9;
 
   color: #04dd73;
 }
-
 .welcome-to-my-world {
   background-image: linear-gradient(to bottom, #8cc0cd, #33472e);
   border: 1px solid #33472e;
 
   color: #ffffff;
 }
-
 .drama {
   background-color: #e70013;
   border: 1px solid #e70013;
 
   color: #000000;
 }
-
 .whiplash {
   background-color: #000000;
   border: 1px solid #000000;
 
   color: #ffffff;
 }
-
 .rich-man {
   background-color: #091ea9;
   border: 1px solid #091ea9;
 
   color: #fbf150;
 }
+.dirty-work {
+  background-color: #000000;
+  border: 1px solid #000000;
 
+  color: white;
+  -webkit-text-stroke: 0.8px #bd8d4e;
+}
+.black-mamba {
+  background-image: linear-gradient(
+    to bottom right,
+    #0a0a0a 55%,
+    #121864,
+    #5f37a1
+  );
+  border: 1px solid #5f37a1;
+
+  color: white;
+}
+
+/* 섹션 내부 */
 .album {
   display: flex;
   flex-direction: column;
@@ -120,6 +133,7 @@ section {
   width: 800px;
 }
 
+/* 트랙리스트 테이블*/
 .tracklist {
   width: 100%;
   padding-bottom: 7px;
@@ -130,7 +144,6 @@ section {
 
   color: black;
 }
-
 .tracklist table,
 .tracklist th,
 .tracklist td {
@@ -139,42 +152,48 @@ section {
   padding: 5px;
   text-align: center;
   vertical-align: middle;
-}
 
-.armageddon .tracklist th {
-  background-color: #455c38;
-  color: #dceac5;
-}
-
-.supernova .tracklist table,
-.supernova .tracklist th,
-.supernova .tracklist td {
   -webkit-text-stroke: 0;
   text-shadow: none;
 }
-
 .tracklist th {
   font-weight: 600;
   padding: 15px;
 
   background-color: transparent;
 }
+.tracklist td {
+  background-color: white;
+}
+.num {
+  width: 80px;
+}
+.link {
+  width: 80px;
+}
+.ytb-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
+.armageddon .tracklist th {
+  background-color: #455c38;
+  color: #dceac5;
+}
 .supernova .tracklist th {
   color: #d920ca;
 }
-
 .savage .tracklist th {
   color: #000000;
 }
-
 .girls .tracklist th {
   color: #5faae1;
 }
-
 .illusion .tracklist th {
   color: #ffffff;
 }
-
 .my-world .tracklist th {
   color: #04dd73;
 }
@@ -190,11 +209,11 @@ section {
 .rich-man .tracklist th {
   color: #fbf150;
 }
-.tracklist td {
-  background-color: white;
+.dirty-work .tracklist th {
+  color: #bd8d4e;
 }
-.num {
-  width: 80px;
+.black-mamba .tracklist th {
+  color: #ffffff;
 }
 
 .badges {
@@ -264,14 +283,20 @@ section {
 
   color: #fbf150;
 }
-.rich-man {
+.dirty-work .badges p {
+  background-color: #000000;
+  border: 1px solid #000000;
+
+  color: #bd8d4e;
 }
-.link {
-  width: 80px;
-}
-.ytb-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100px;
+.black-mamba .badges p {
+  background-image: linear-gradient(
+    to bottom right,
+    #0a0a0a 55%,
+    #121864,
+    #5f37a1
+  );
+  border: 1px solid #5f37a1;
+
+  color: white;
 }
