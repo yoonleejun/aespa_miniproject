@@ -1,0 +1,405 @@
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+  margin-bottom: 150px;
+
+  gap: 50px;
+}
+
+/* hero */
+.hero {
+  height: 400px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #000000;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/discography-hero-logo.png");
+
+  background-size: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1.6;
+
+  background: linear-gradient(to right, #c88ddd, #9ceafe);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* side bar */
+.type {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 32px;
+  align-items: start;
+}
+.side {
+  position: sticky;
+  top: 150px;
+
+  text-align: center;
+  height: fit-content;
+  padding: 16px;
+
+  border-radius: 14px;
+
+  background-image: linear-gradient(to right, #c88ddd, #9ceafe);
+  color: white;
+  font-weight: 1000;
+  transition: 0.3s;
+}
+
+/* section */
+.albums {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  overflow: hidden;
+}
+.albums section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+
+  border-radius: 15px;
+}
+.album-num {
+  font-weight: 600;
+}
+
+.armageddon {
+  background-color: #455c38;
+
+  border: 1px solid #455c38;
+
+  color: #dceac5;
+}
+.supernova {
+  background-color: #0d0a0e;
+
+  border: 1px solid #0d0a0e;
+
+  color: white;
+  -webkit-text-stroke: 0.3px #d920ca;
+  text-shadow:
+    0 0 2px #d920ca,
+    0 0 6px #d920ca,
+    0 0 12px #d920ca,
+    0 0 24px #d920ca,
+    0 0 48px #d920ca;
+}
+.savage {
+  background-image: linear-gradient(to right, #85acde, #bcd9ef);
+
+  border: 1px solid #bcd9ef;
+
+  color: #000000;
+}
+.girls {
+  background-color: #010101;
+
+  border: 1px solid #010101;
+
+  color: #5faae1;
+}
+.illusion {
+  background-image: linear-gradient(to bottom, #62719a, #a7a5cc);
+
+  border: 1px solid #a7a5cc;
+
+  color: #ffffff;
+}
+.my-world {
+  background-image: linear-gradient(to bottom, #1e76c0, #399ae9);
+  border: 1px solid #399ae9;
+
+  color: #04dd73;
+}
+.welcome-to-my-world {
+  background-image: linear-gradient(to bottom, #8cc0cd, #33472e);
+  border: 1px solid #8cc0cd;
+
+  color: #ffffff;
+}
+.drama {
+  background-color: #e70013;
+  border: 1px solid #e70013;
+
+  color: #000000;
+}
+.whiplash {
+  background-color: #000000;
+  border: 1px solid #000000;
+
+  color: #ffffff;
+}
+.rich-man {
+  background-color: #091ea9;
+  border: 1px solid #091ea9;
+
+  color: #fbf150;
+}
+.dirty-work {
+  background-color: #000000;
+  border: 1px solid #000000;
+
+  color: white;
+  -webkit-text-stroke: 0.8px #bd8d4e;
+}
+.black-mamba {
+  background-image: linear-gradient(
+    to bottom right,
+    #0a0a0a 55%,
+    #121864,
+    #5f37a1
+  );
+  border: 1px solid #5f37a1;
+
+  color: white;
+}
+.forever {
+  background-image: linear-gradient(to right, #fdbacb, #baa3df);
+  border: 1px solid #fdbacb;
+
+  color: white;
+}
+.next-level {
+  background-image: linear-gradient(to right, #d8afa6, #fae1b6);
+  border: 1px solid #fae1b6;
+
+  color: #000000;
+}
+.synk-parallel-line {
+  background-image: linear-gradient(to bottom, #2c325b, #6b88af, #b9cbd8);
+  border: 1px solid #b9cbd8;
+
+  color: #ffffff;
+}
+.synk-asxis-line {
+  background-color: black;
+  border: 1px solid black;
+
+  color: #7f7e83;
+}
+
+/* section inside */
+.album {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+.album-logo {
+  padding-top: 40px;
+  width: 300px;
+}
+.cover {
+  width: 800px;
+}
+
+/* tracklist table */
+.tracklist {
+  width: 100%;
+  padding-bottom: 7px;
+
+  border-collapse: collapse;
+
+  margin-bottom: 15px;
+
+  color: black;
+}
+.tracklist table,
+.tracklist th,
+.tracklist td {
+  border: 1px solid #dddddd;
+
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+
+  -webkit-text-stroke: 0;
+  text-shadow: none;
+}
+.tracklist th {
+  font-weight: 600;
+  padding: 15px;
+
+  background-color: transparent;
+}
+.tracklist td {
+  background-color: white;
+}
+.num {
+  width: 80px;
+}
+.link {
+  width: 80px;
+}
+.ytb-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
+.armageddon .tracklist th {
+  background-color: #455c38;
+  color: #dceac5;
+}
+.supernova .tracklist th {
+  color: #d920ca;
+}
+.savage .tracklist th {
+  color: #000000;
+}
+.girls .tracklist th {
+  color: #5faae1;
+}
+.illusion .tracklist th {
+  color: #ffffff;
+}
+.my-world .tracklist th {
+  color: #04dd73;
+}
+.welcome-to-my-world .tracklist th {
+  color: #ffffff;
+}
+.drama .tracklist th {
+  color: #000000;
+}
+.whiplash .tracklist th {
+  color: #ffffff;
+}
+.rich-man .tracklist th {
+  color: #fbf150;
+}
+.dirty-work .tracklist th {
+  color: #bd8d4e;
+}
+.black-mamba .tracklist th {
+  color: #ffffff;
+}
+.forever .tracklist th {
+  color: #ffffff;
+}
+.next-level .tracklist th {
+  color: #000000;
+}
+.synk-parallel-line .tracklist th {
+  color: #ffffff;
+}
+.synk-asxis-line .tracklist th {
+  color: #7f7e83;
+}
+
+.adult {
+  width: 15px;
+}
+.badges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6px;
+  gap: 5px;
+}
+.badges p {
+  padding: 5px;
+  border-radius: 45px;
+  font-size: 11px;
+}
+.armageddon .badges p {
+  background-color: #455c38;
+  color: #dceac5;
+}
+.supernova .badges p {
+  background-color: #0d0a0e;
+  color: #d920ca;
+}
+.savage .badges p {
+  background-image: linear-gradient(to right, #85acde, #bcd9ef);
+  color: #000000;
+}
+.girls .badges p {
+  background-color: #010101;
+  color: #5faae1;
+}
+.illusion .badges p {
+  background-color: #a7a5cc;
+  color: #ffffff;
+}
+.my-world .badges p {
+  background-color: #399ae9;
+
+  color: #04dd73;
+}
+.welcome-to-my-world .badges p {
+  background-image: linear-gradient(to bottom, #8cc0cd, #33472e);
+
+  color: #ffffff;
+}
+.drama .badges p {
+  background-color: #e70013;
+
+  color: #000000;
+}
+.whiplash .badges p {
+  background-color: #000000;
+
+  color: #ffffff;
+}
+.rich-man .badges p {
+  background-color: #091ea9;
+
+  color: #fbf150;
+}
+.dirty-work .badges p {
+  background-color: #000000;
+
+  color: #bd8d4e;
+}
+.black-mamba .badges p {
+  background-image: linear-gradient(
+    to bottom right,
+    #0a0a0a 55%,
+    #121864,
+    #5f37a1
+  );
+
+  color: white;
+}
+.forever .badges p {
+  background-image: linear-gradient(to right, #fdbacb, #baa3df);
+
+  color: white;
+}
+.next-level .badges p {
+  background-image: linear-gradient(to right, #d8afa6, #fae1b6);
+  border: 1px solid #fae1b6;
+
+  color: #000000;
+}
+.synk-parallel-line .badges p {
+  background-color: #b9cbd8;
+
+  color: #ffffff;
+}
+.synk-asxis-line .badges p {
+  background-color: black;
+
+  color: #7f7e83;
+}
