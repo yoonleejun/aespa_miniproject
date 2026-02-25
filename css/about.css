@@ -3,7 +3,7 @@
   justify-content: space-between;
   border-bottom: 1px solid rgba(0, 0, 0, 0.178);
   background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-  padding: 30px;
+  padding: 50px;
 }
 
 .head {
@@ -14,13 +14,13 @@
 .title {
   font-size: 30px;
   font-weight: bold;
-  margin-left: 20px;
+  margin-left: 40px;
   margin-top: 20px;
   color: rgb(211, 209, 209);
 }
 .content {
   font-size: 20px;
-  margin-left: 30px;
+  margin-left: 50px;
   line-height: 1.7;
   text-align: justify;
   color: white;
@@ -65,6 +65,7 @@
 .karina {
   border-bottom: 1px solid rgba(0, 0, 0, 0.178);
   display: flex;
+  gap: 25px;
 }
 
 .karina_photo {
@@ -75,6 +76,7 @@
   border-radius: 20px;
   border: solid 6px #7d44ff;
   box-shadow: 0 0 20px 5px#7d44ff;
+  margin-left: 280px;
 }
 
 .karina_photo:hover {
@@ -92,6 +94,7 @@
 .giselle {
   border-bottom: 1px solid rgba(0, 0, 0, 0.178);
   display: flex;
+  gap: 25px;
 }
 
 .giselle_photo {
@@ -110,7 +113,7 @@
 
 .introduce_giselle {
   margin-top: 60px;
-  margin-left: 70px;
+  margin-left: 450px;
   font-size: 20px;
   display: flex;
   flex-direction: column;
@@ -120,6 +123,7 @@
 .winter {
   border-bottom: 1px solid rgba(0, 0, 0, 0.178);
   display: flex;
+  gap: 25px;
 }
 
 .winter_photo {
@@ -130,6 +134,7 @@
   border-radius: 20px;
   border: solid 6px #eaffff;
   box-shadow: 0 0 20px 5px #5aeaea;
+  margin-left: 250px;
 }
 
 .winter_photo:hover {
@@ -146,6 +151,7 @@
 }
 .ningning {
   display: flex;
+  gap: 35px;
 }
 
 .ningning_photo {
@@ -164,7 +170,7 @@
 
 .introduce_ningning {
   margin-top: 60px;
-  margin-left: 70px;
+  margin-left: 530px;
   font-size: 20px;
   display: flex;
   flex-direction: column;
