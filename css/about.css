@@ -1,0 +1,180 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  padding: 50px;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 40px;
+  margin-top: 20px;
+  color: rgb(211, 209, 209);
+}
+.content {
+  font-size: 20px;
+  margin-left: 50px;
+  line-height: 1.7;
+  text-align: justify;
+  color: white;
+}
+
+.member_img1 {
+  margin-top: 15px;
+  margin-right: 200px;
+  margin-bottom: 15px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.sub {
+  font-size: 18px;
+  margin-top: -5px;
+}
+
+.member_img2 {
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.member_photo {
+  transition: transform 0.3s ease;
+  display: inline-block;
+  vertical-align: middle;
+  width: 350px;
+  border-radius: 20px;
+  border: solid 3px rgba(0, 0, 0, 0.377);
+  box-shadow: 0 0 15px 5px#67627b;
+}
+
+.member_photo:hover {
+  transform: scale(1.1);
+}
+
+.karina {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.karina_photo {
+  transition: transform 0.3s ease;
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+  border-radius: 20px;
+  border: solid 6px #7d44ff;
+  box-shadow: 0 0 20px 5px#7d44ff;
+}
+
+.karina_photo:hover {
+  transform: scale(1.1);
+}
+
+.introduce_karina {
+  margin-top: 60px;
+  margin-left: 70px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.giselle {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.giselle_photo {
+  transition: transform 0.3s ease;
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+  border-radius: 20px;
+  border: solid 6px #ff00e5;
+  box-shadow: 0 0 20px 5px #ff00e5;
+}
+
+.giselle_photo:hover {
+  transform: scale(1.1);
+}
+
+.introduce_giselle {
+  margin-top: 60px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: right;
+}
+
+.winter {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.winter_photo {
+  transition: transform 0.3s ease;
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+  border-radius: 20px;
+  border: solid 6px #eaffff;
+  box-shadow: 0 0 20px 5px #5aeaea;
+}
+
+.winter_photo:hover {
+  transform: scale(1.1);
+}
+
+.introduce_winter {
+  margin-top: 60px;
+  margin-left: 70px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.ningning {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+}
+
+.ningning_photo {
+  transition: transform 0.3s ease;
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+  border-radius: 20px;
+  border: solid 6px #ffcc00;
+  box-shadow: 0 0 20px 5px#ffcc00;
+}
+
+.ningning_photo:hover {
+  transform: scale(1.1);
+}
+
+.introduce_ningning {
+  margin-top: 60px;
+  text-align: right;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

@@ -4,12 +4,36 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>콘서트·이벤트 일정</title>
-
-  <!-- 외부 CSS 연결 -->
-  <link rel="stylesheet" href="./schedule.css" />
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/schedule.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap" rel="stylesheet">
 </head>
 
     <body id="top">
+        <header class="site-header">
+    <div class="header__inner">
+      <h1>
+        <a href="./index.html">
+          <img src="./images/logo-black.svg" alt="aespa" class="header__logo" />
+        </a>
+      </h1>
+
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__item"><a href="./about.html">About</a></li>
+          <li class="header__item"><a href="./discography.html">Discography</a></li>
+          <li class="header__item"><a href="./gallery.html">Gallery</a></li>
+          <li class="header__item"><a href="./schedule.html">Schedule</a></li>
+          <li class="header__item"><a href="./community.html">Community</a></li>
+          <li class="header__item"><a href="./fan-letter.html">Fan-letter</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
      <div class="frame">
       <header class="page-header">
       <!-- 실제 화면에 보이는 로고 이미지 -->
@@ -242,5 +266,58 @@
               <!-- 맨 위로 가기 버튼 -->
               <a href="#top" class="to-top" aria-label="맨 위로">↑</a>
 
-              </body>
-              </html>
+ <footer class="site-footer">
+    <div class="footer__inner">
+
+      <div class="footer__top">
+        <a href="#">
+          <img src="./images/logo-white.svg" alt="aespa" class="footer__logo" />
+        </a>
+
+        <div class="footer__info">
+          <div class="footer__info-team">
+            <strong class="footer__team-title">Sprinter Team 4</strong>
+            <ul class="footer__members">
+              <li class="footer__member">YOON LEE JUN</li>
+              <li class="footer__member">PARK SO JEONG</li>
+              <li class="footer__member">YOO SEO HYEON</li>
+              <li class="footer__member">LEE SANG YUN</li>
+              <li class="footer__member">LEE JI YEON</li>
+              <li class="footer__member">CHOI HYE SEONG</li>
+              <li class="footer__member">CHOO MYUNG GON</li>
+            </ul>
+          </div>
+
+          <div class="footer__info-code">
+            <strong class="footer__code-title">CODE</strong>
+            <a href="https://github.com/yoonleejun/aespa_miniproject" class="footer__github">
+              <img src="./images/icon-link-github.svg" alt="GitHub">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div class="footer__social">
+          <a href="https://x.com/aespa_official" target="_blank" rel="noopener noreferrer" class="footer__social-link">
+            <span class="sr-only">에스파 공식 X</span>
+            <img src="./images/icon-link-x.svg" alt="" aria-hidden="true">
+          </a>
+          <a href="https://www.youtube.com/@aespa" target="_blank" rel="noopener noreferrer" class="footer__social-link">
+            <span class="sr-only">에스파 공식 유튜브</span>
+            <img src="./images/icon-link-youtube.svg" alt="" aria-hidden="true">
+          </a>
+          <a href="https://www.instagram.com/aespa_official" target="_blank" rel="noopener noreferrer" class="footer__social-link">
+            <span class="sr-only">에스파 공식 인스타그램</span>
+            <img src="./images/icon-link-instagram.svg" alt="" aria-hidden="true">
+          </a>
+        </div>
+
+        <p class="footer__copyright">
+          ⓒ 2026 FS-sprint 4팀 (12기) All rights reserved
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
