@@ -1,0 +1,97 @@
+table {
+  width: 56.25rem;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 1.0625rem;
+  text-align: center;
+}
+
+thead th:first-child {
+  border-top-left-radius: 10px;
+}
+
+thead th:last-child {
+  border-top-right-radius: 10px;
+}
+
+thead tr {
+  background: linear-gradient(to right, #c88ddd, #9ceafe);
+  color: white;
+  font-weight: 500;
+  font-size: 1.0625rem;
+}
+
+tbody tr {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.875rem;
+  background-color: white;
+  padding: 4.375rem 0rem 4.375rem 0rem;
+}
+
+.writeList {
+  display: flex;
+  flex-direction: column;
+}
+
+.write-summary {
+  cursor: pointer;
+}
+
+.write-summary:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.write-button-containter {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0rem 0.625rem 0.3125rem 0rem;
+  cursor: pointer;
+}
+
+.write-icon {
+  transition: transform 0.25s ease;
+}
+.write-icon:hover {
+  transform: scale(1.2);
+}
+
+.write-icon:active {
+  transform: scale(0.9);
+}
+
+.pagination {
+  display: flex;
+  flex-direction: column;
+}
+
+.pagination ul {
+  display: flex;
+  gap: 1.25rem;
+  list-style: none;
+  align-items: center;
+}
+
+.pagination-click {
+  background: #223055;
+  border-radius: 100px;
+  width: 2.25rem;
+  height: 2.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.pagination-button {
+  cursor: pointer;
+}
