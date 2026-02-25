@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+}
+
+/* 에스파 공식색 Aurora */
+:root {
+  --color-aespa-aurora-1: #c88ddd;
+  --color-aespa-aurora-2: #9ceafe;
+}
+
+/* Top 버튼 클릭 시 스크롤 부드럽게  */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 87.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 히어로 영역 제목  */
+.gallery-hero-section h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 0.375rem;
+  background: linear-gradient(
+    to right,
+    var(--color-aespa-aurora-1),
+    var(--color-aespa-aurora-2)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0rem 0rem 0.4375rem #fc6a6a);
+}
+
+/* 각 파트 제목 */
+.gallery-section h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+/* 갤러리 페이지 메인 레이아웃 */
+.gallery-container {
+  display: flex;
+  width: 100%;
+  max-width: 87.5rem;
+  padding: 0 6.25rem;
+  margin: 3.75rem auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 3.125rem;
+
+  gap: 8.125rem;
+}
+
+/* 히어로 영역 레이아웃 */
+.gallery-hero-section {
+  display: flex;
+  width: 100%;
+  height: 28.125rem;
+  background-color: #111111;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.logo-silver {
+  width: 55.75rem;
+  height: 21.8125rem;
+  position: absolute;
+  opacity: 0.25;
+}
+
+/* MV 목록 레이아웃 */
+.mv-container {
+  display: flex;
+  width: 100%;
+  max-width: 75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3.125rem;
+}
+
+.mv-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5625rem;
+}
+
+#mv {
+  scroll-margin-top: 9.375rem;
+}
+
+/* MV 제목 */
+.mv-card p {
+  font-size: 1.25rem;
+}
+
+.mv-thumbnail {
+  width: 22.5rem;
+  height: 12.5rem;
+  border-radius: 1.25rem;
+  transition: transform 0.3s ease;
+
+  cursor: pointer;
+}
+
+.mv-thumbnail:hover {
+  transform: scale(1.1);
+  border: 3px solid var(--color-aespa-aurora-1);
+}
+
+/* 1. 모달 기본 상태 (숨김) */
+.css-modal {
+  display: none; /* 평소에는 안 보임 */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+}
+
+/* 2. 핵심 로직: URL에 #youtube-popup-n이 붙으면 모달 표시 */
+.css-modal:target {
+  display: block;
+}
+
+/* 중앙 정렬 컨텐츠 */
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 50rem;
+}
+
+/* 닫기 버튼 (#을 빈 링크로 보내 target을 해제함) */
+.close-btn {
+  color: #ffffff;
+  float: right;
+  font-size: 1.875rem;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 0.625rem;
+}
+.close-btn:hover {
+  color: #ff4c4c;
+}
+
+/* 16:9 반응형 유튜브 */
+.youtube-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  clear: both;
+}
+.youtube-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+}
+
+.gallery-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+/* photo-container grid 방식 */
+/* .photo-container {
+  display: grid;
+  width: 100%;
+  max-width: 75rem;
+  grid-template-columns: repeat(auto-fit, 360px);
+  gap: 3.125rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.photo {
+  width: 100%;
+  object-fit: fill;
+  transition: transform 0.3s ease;
+} */
+
+/* Photo 영역 레이아웃 */
+.photo-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 75rem;
+  gap: 3.125rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.photo {
+  width: 360px;
+  height: 100%;
+  object-fit: fill;
+  transition: transform 0.3s ease;
+}
+
+.photo:hover {
+  transform: scale(1.2);
+}
+
+strong {
+  font-weight: 600;
+}
+
+/* Top 버튼(화면 상단 이동) */
+.top-btn {
+  position: sticky;
+  bottom: 1.875rem;
+  margin-bottom: 1.875rem;
+  z-index: 999;
+
+  cursor: pointer;
+}
+
+.top-btn img {
+  width: 3.75rem;
+  height: 3.75rem;
+}
