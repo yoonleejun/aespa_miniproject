@@ -20,7 +20,7 @@
   background-color: #000000;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("images/discography-hero-logo.png");
+    url("../images/discography-hero-logo.png");
 
   background-size: 500px;
   background-position: center;
